@@ -1,0 +1,40 @@
+.timeslot {
+  justify-content: space-between;
+}
+.timeslot .form-wrapper {
+  flex: 0 0 15%;
+  max-width: 15%;
+}
+.timeslot .form-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+.timeslot .form-wrapper form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.timeslot .form-wrapper form label span{
+  font-weight: bold;
+}
+.timeslot .info-wrapper {
+  flex: 0 0 75%;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.timeslot .info-wrapper .list-place-wrap {
+  margin-right: 30px;
+}
+
+.timeslot .info-wrapper .result-place-wrap .place-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.timeslot .info-wrapper .result-place-wrap .place-wrap .time {
+  flex: 0 0 20%;
+  max-width: 20%;
+  margin-bottom: 5px;
+}
+

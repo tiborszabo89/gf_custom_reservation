@@ -1,0 +1,10 @@
+@import './parts/timeslot.css';
+
+.um-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.d-none {
+  display: none;
+}
